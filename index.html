@@ -8,101 +8,30 @@
 	<title>Vacation Suggester</title>
 </head>
 <body>
- <h1>Vacation Suggester</h1>
- <p>What is your favorite cuisine?</p>
-	<div class="radio">
-		<label>
-    	<input type="radio" name="operator" value="mexican" checked>
-      Mexican
-    </label>
-  </div>
-  <div class="radio">
-		<label>
-    	<input type="radio" name="operator" value="japanese">
-      Japanese
-    </label>
-   </div>
-	<div class="radio">
-		<label>
-    	<input type="radio" name="operator" value="italian">
-      Italian
-    </label>
-   </div>
- <p>What activity is the most fun for you?</p>
- <div class="radio">
-		<label>
-    	<input type="radio" name="operator" value="beach" checked>
-      Laying on the beach
-    </label>
-  </div>
-  <div class="radio">
-		<label>
-    	<input type="radio" name="operator" value="hiking">
-      Hiking
-    </label>
-   </div>
-	<div class="radio">
-		<label>
-    	<input type="radio" name="operator" value="sightseeing">
-      Sightseeing new cities, visiting museums and shopping
-    </label>
-   </div>
-   <p>What is your favorite type of clothes?</p>
-		<div class="radio">
-		<label>
-    	<input type="radio" name="operator" value="shortsandtee" checked>
-      Shorts and a T-shirt
-    </label>
-  </div>
-  <div class="radio">
-		<label>
-    	<input type="radio" name="operator" value="jeans">
-      Jeans
-    </label>
-   </div>
-	<div class="radio">
-		<label>
-    	<input type="radio" name="operator" value="businessattire">
-      Business Attire
-    </label>
-   </div>
-   <p>What is your favorite season?</p>
-	<div class="radio">
-		<label>
-    	<input type="radio" name="operator" value="summer" checked>
-      Summer
-    </label>
-  </div>
-  <div class="radio">
-		<label>
-    	<input type="radio" name="operator" value="fall">
-      Fall
-    </label>
-   </div>
-	<div class="radio">
-		<label>
-    	<input type="radio" name="operator" value="winter">
-      Snowy Winter
-    </label>
-   </div>
-   <p>Your friends describe you as:</p>
-	<div class="radio">
-		<label>
-    	<input type="radio" name="operator" value="adventurer" checked>
-      Adventurer
-    </label>
-  </div>
-  <div class="radio">
-		<label>
-    	<input type="radio" name="operator" value="intellectual">
-      Intellectual
-    </label>
-   </div>
-	<div class="radio">
-		<label>
-    	<input type="radio" name="operator" value="beachbum">
-      Beach Bum
-    </label>
-   </div>
-</body>
+ <div class="container">
+      <h1>Vacation Suggester</h1>
+      <p>Dear Traveller, welcome to our website, we will be happy to find the best destination for your travel. First, please answer a few questions to help us better understand your preferences. Please choose one of the 3 suggested options for each question.</p>
+      <form id="vacation">
+        <div class="form-group">
+          <label for="input1">What is your favorite cuisine: Japanese, Mexican or Italian?</label>
+          <input id="input1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="input2">What activity is the most fun for you: Laying on the beach, Hiking or Sighteseeing in new cities?</label>
+          <input id="input2" class="form-control" type="text">
+        </div>
+				<div class="form-group">
+          <label for="input3">What is your favorite type of clothes: Shorts and a T-shirt, Jeans or Business attire?</label>
+          <input id="input3" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="input4">What is your favorite season: Summer, Fall or Snowy winter?</label>
+          <input id="input4" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="input5">Your friends describe you as: Adventurer, Intellectual or Beach bum?</label>
+          <input id="input5" class="form-control" type="text">
+        </div>
+       </form>
+        </body>
 </html>
