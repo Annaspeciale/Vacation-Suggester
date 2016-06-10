@@ -11,28 +11,32 @@
  <div class="container">
       <h1>Vacation Suggester</h1>
       <p>Dear Traveller, welcome to our website, we will be happy to find the best destination for your travel. First, please answer a few questions to help us better understand your preferences. Please choose one of the 3 suggested options for each question.</p>
+      <div id="blanks">
       <form id="vacation">
         <div class="form-group">
-          <label for="input1">What is your favorite cuisine: Japanese, Mexican or Italian?</label>
-          <input id="input1" class="form-control" type="text">
+          <label for="cuisine">What is your favorite cuisine: Japanese, Mexican or Italian?</label>
+          <input id="cuisine" class="form-control" type="text">
         </div>
         <div class="form-group">
-          <label for="input2">What activity is the most fun for you: Laying on the beach, Hiking or Sighteseeing in new cities?</label>
-          <input id="input2" class="form-control" type="text">
+          <label for="activity">What activity is the most fun for you: Laying on the beach, Hiking or Sighteseeing in new cities?</label>
+          <input id="activity" class="form-control" type="text">
         </div>
 				<div class="form-group">
-          <label for="input3">What is your favorite type of clothes: Shorts and a T-shirt, Jeans or Business attire?</label>
-          <input id="input3" class="form-control" type="text">
+          <label for="clothes">What is your favorite type of clothes: Shorts and a T-shirt, Jeans or Business attire?</label>
+          <input id="clothes" class="form-control" type="text">
         </div>
         <div class="form-group">
-          <label for="input4">What is your favorite season: Summer, Fall or Snowy winter?</label>
-          <input id="input4" class="form-control" type="text">
+          <label for="season">What is your favorite season: Summer, Fall or Snowy winter?</label>
+          <input id="season" class="form-control" type="text">
         </div>
         <div class="form-group">
-          <label for="input5">Your friends describe you as: Adventurer, Intellectual or Beach bum?</label>
-          <input id="input5" class="form-control" type="text">
+          <label for="personality">Your friends describe you as: Adventurer, Intellectual or Beach bum?</label>
+          <input id="personality" class="form-control" type="text">
         </div>
+
+        <button type="submit" class="btn">Show me the result!</button>
        </form>
+       </div>
 
        <div class="container">
       <div id="asia">
@@ -44,5 +48,5 @@
       <div id="carribean">
           <p>We think the best option for your vacation this year is Carribean.</p>
       </div>
-        </body>
+    </body>
 </html>
