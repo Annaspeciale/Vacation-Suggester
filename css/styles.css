@@ -1,3 +1,13 @@
 #asia, #europe, #carribean {
 	display: none;
 }
+
+h1 {
+	text-align: center;
+	color: blue;
+}
+
+.welcome {
+	text-align: center;
+	font-style: italic;
+}

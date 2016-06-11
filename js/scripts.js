@@ -8,7 +8,11 @@ $(document).ready(function() {
 
 
 if (answer1 === 'Mexican' && answer2 === 'Laying on the beach' && answer4 === 'Summer') {
-	$('mexico').show();
+	$('#carribean').show();
+} else if (answer1 === 'Italian' && answer2 === 'Sightseeing in new cities' && answer5 === 'Intellectual') {
+	$('#europe').show();
+} else if (answer1 === 'Japanese' && answer2 === 'Hiking' && answer5 === 'Adventurer') {
+	$('#asia').show();
 }
 
 });
