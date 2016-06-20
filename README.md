@@ -12,7 +12,7 @@ A vacation suggester quiz. Created by **Anna Matviyenko** on June 10th, 2016. Th
 
 #### Contact Information:
 
-Anna Matviyenko, e-mail: anna.matviyenko@gmail.com
+Anna Matviyenko, e-mail: anna.matviyenko@gmail.com.
 
 #### License:
 This software is licensed under GPL license.
