@@ -15,5 +15,7 @@ if (answer1 === 'Mexican' && answer2 === 'Laying on the beach' && answer4 === 'S
 	$('#asia').show();
 }
 
+event.preventDefault();
+
 });
 });
